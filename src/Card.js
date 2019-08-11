@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './Card.css';
 
-function Card() {
+function Card({ robot }) {
   return (
     <div>
       <div className="Robot">
-      	<img src="https://robohash.org/robotzzzzz" alt="a robot should be here" />
+      	<img src={`https://robohash.org/${robot.name}`} alt="a robot should be here" />
       	<p>
-      		I don't like human's very much
+          {robot.name}<br />
+          {robot.email}
       	</p>
       </div>
     </div>
