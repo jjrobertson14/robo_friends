@@ -1,16 +1,16 @@
 import React from 'react';
 import './Card.css';
 
-function Card({ robot }) {
+function Card({ id, robot }) {
   return (
-    <div>
-      <div className="Robot">
+      <div id={id} className="Robot">
       	<img src={`https://robohash.org/${robot.name}`} alt="a robot should be here" />
       	<p>
-          {robot.name}<br />
+          {robot.name}
+        </p>
+        <p>
           {robot.email}
       	</p>
-      </div>
     </div>
   );
 }
