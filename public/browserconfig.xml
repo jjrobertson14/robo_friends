@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="/home/jrobertson/Dropbox/vs-code-workspaces/courses/junior-to-senior/react-redux-modules-webpack/robo_friends/public/mstile-150x150.png"/>
+            <TileColor>#603cba</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>
