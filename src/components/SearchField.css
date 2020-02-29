@@ -1,0 +1,13 @@
+input {
+    padding: .5em
+}
+
+input:focus {
+    outline: -webkit-focus-ring-color solid .25em;
+    outline-offset: -0.45em;
+}
+
+label {
+    vertical-align: middle;
+    padding-right: .5em;
+}

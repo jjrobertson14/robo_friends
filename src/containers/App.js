@@ -41,7 +41,7 @@ class App extends Component {
 		:
 			<div className="App">
 			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
+				<img src={logo} className="App-logo" alt="logo" tab-index="-1" />
 				<SearchField searchChange={onSearchChange}/>
 				<CardList robots={filteredRobots} />
 			</header>
