@@ -3,7 +3,7 @@
     "short_name": "Face Recognition App",
     "icons": [
         {
-            "src": "/home/jrobertson/Dropbox/vs-code-workspaces/courses/junior-to-senior/react-redux-modules-webpack/robo_friends/public/android-chrome-96x96.png?v=1.0",
+            "src": "/home/jrobertson/Dropbox/vs-code-workspaces/courses/junior-to-senior/react-redux-modules-webpack/robo_friends/public/android-chrome-96x96.png",
             "sizes": "96x96",
             "type": "image/png"
         }
