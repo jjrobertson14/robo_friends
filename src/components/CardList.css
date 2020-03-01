@@ -1,6 +1,6 @@
 .cardList {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	width: 80%;
 	flex-direction: row;
 	flex-wrap: wrap;
