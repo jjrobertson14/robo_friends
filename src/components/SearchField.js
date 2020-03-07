@@ -4,7 +4,7 @@ import './SearchField.css';
 const SearchField = ({searchChange}) => {
 	return (
 		<div className="SearchField">
-			<label for="robot-search">Search:</label>
+			<label htmlFor="robot-search">Search:</label>
 			<input 
 				type="search"
 				name="robot-search"
