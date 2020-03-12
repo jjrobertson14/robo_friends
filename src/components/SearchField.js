@@ -3,7 +3,7 @@ import './SearchField.css';
 
 const SearchField = ({searchChange}) => {
 	return (
-		<div className="SearchField">
+		<div className="SearchField" style={{ height: '10vh'}}>
 			<label htmlFor="robot-search">Search:</label>
 			<input 
 				type="search"

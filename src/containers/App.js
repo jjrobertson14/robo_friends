@@ -4,6 +4,8 @@ import logo from '../logo.svg';
 import './App.css';
 import SearchField from '../components/SearchField';
 import CardList from '../components/CardList';
+import Scroll from '../components/Scroll'
+import ErrorBoundary from '../components/ErrorBoundary'
 
 import { setSearchField, requestRobots } from '../actions';
 
@@ -43,7 +45,13 @@ class App extends Component {
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" tab-index="-1" />
 				<SearchField searchChange={onSearchChange}/>
-				<CardList robots={filteredRobots} />
+				<Scroll>
+					{ isPending ? <h1>Loading</h1> :
+						<ErrorBoundary>
+							<CardList robots={filteredRobots} />
+						</ErrorBoundary>
+					}
+				</Scroll>
 			</header>
 			</div>
 		;
