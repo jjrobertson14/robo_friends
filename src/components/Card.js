@@ -11,12 +11,13 @@ function Card({ id, robot }) {
   return (
       <div id={id} className="Robot">
       	<img src={`https://robohash.org/${robot.name}?size=200x200`} alt="a robot should be here" />
-      	<p>
+      	<h1>
           {robot.name}
-        </p>
+        </h1>
         <p>
           {robot.email}
       	</p>
+        <blep></blep>
     </div>
   );
 }
