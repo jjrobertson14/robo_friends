@@ -10,7 +10,7 @@ const mockRobots = [{
 }]
 
 describe('CardList testing', () => {
-    it('expect to render CardList component', () => {
+    it('renders a CardList component', () => {
         // Example usage of some functions from Enzyme
         // console.log(shallow(<div><CardList robots={mockRobots}/></div>).find(CardList).dive().getElement())
         // Example Enzyme assertions
@@ -18,7 +18,7 @@ describe('CardList testing', () => {
         expect(shallow(<CardList robots={mockRobots}/>).contains(<CardList robots={mockRobots}/>))
     })
 
-    it('must not be touched', () => {
+    it('s render output has not changed', () => {
         expect(shallow(<CardList robots={mockRobots}/>)).toMatchSnapshot()
     })
 })
